@@ -1,0 +1,400 @@
+﻿
+header img {
+    height: 60px;
+    width: 120px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    header img:hover {
+        height: 65px;
+        width: 130px;
+    }
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+.mySlides img{
+    width:100%;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow-container {
+    height: 400px;
+    background-color: #e61c2a;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    color: #e61c2a;
+    font-size: 15px;
+    position: center;
+    bottom: 8px;
+    text-align: center;
+    width: auto;
+}
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 2.0s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: -100px !important;
+}
+
+    footer p {
+        font-size: 10px !important;
+        padding: 10px;
+    }
+
+    footer a {
+        float: left;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+
+article {
+    margin-top: 50px;
+    float: left;
+    width: 700px;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+    article h2 {
+        font-style: italic;
+        color: #e71b3e;
+        text-align: center;
+    }
+
+.video {
+    margin-top: 200px;
+}
+
+#mySidenav a {
+    position: absolute;
+    z-index:2;
+    top: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    height: 150px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    writing-mode: vertical-rl;
+}
+
+    #mySidenav a:hover {
+        top: -10px;
+    }
+
+#anasayfa {
+    right: 135px;
+    background-color: #4CAF50;
+}
+
+#hakkimizda {
+    right: 215px;
+    background-color: #2196F3;
+}
+
+#hizmetlerimiz {
+    right: 295px;
+    background-color: #f44336;
+}
+
+#iletisim {
+    right: 375px;
+    background-color: #555
+}
+
+#blog {
+    right: 455px;
+    background-color: #ff6a00;
+}
+
+#galeri {
+    right: 535px;
+    background-color: #4300d3;
+}
+
+#haberler {
+    right: 615px;
+    background-color: #ffd800;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: #e61c2a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #2196F3;
+    }
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.card {
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    float: left;
+    width: 100%;
+    height: 200px;
+    padding: 0 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+    .card:hover {
+        width: 105%;
+        height: 210px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+.buton {
+    text-align: center;
+}
+
+
+.card-hizmetler {
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 0 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    justify-content:center;
+}
+
+
+summary {
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    color: darkred;
+}
+
+#ekipResim {
+    width: 69px;
+    height: 103px;
+    margin-top: 10px;
+}
+
+.makaleler {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: large;
+    font-family: Bahnschrift;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.makaleButon {
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+
+#arkaplan {
+    width: 500px;
+    height: 700px;
+    background: url(../img/hizmetler/hizmetler.jpg);
+    border: 5px double black;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hizmetButonlar {
+    width: 400px;
+    height: 200px;
+    margin: 480px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+    #hizmetButonlar button {
+        margin: 5px;
+    }
+
+.galeri {
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+    .galeri img {
+        opacity: 0.8;
+        cursor: pointer;
+        width: 150px;
+        height: 100px;
+    }
+
+        .galeri img:hover {
+            opacity: 1;
+        }
+
+
+#expandedImg {
+    width: 350px;
+    height: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.cerceve {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00001e;
+    height: 400px;
+}
+
+.blink {
+    animation: blinker 1.0s linear infinite;
+    color: #1c87c9;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.roportaj {
+    float: right;
+}
+
+
+    .roportaj button {
+        color: white;
+        font-size: 12pt;
+        float: right;
+    }
+
+
+#roportaj img {
+    width: 69px;
+    height: 103px;
+    margin-top: 10px;
+}
+
+#roportaj .modal-header {
+    text-align: center;
+}
+
+    #roportaj .modal-header p {
+        font-size: 8pt;
+    }
+
+#roportaj .modal-body p {
+    font-size: 10pt;
+}
+
+article{
+    text-align:justify;
+}
+p{
+    text-align:justify;
+}

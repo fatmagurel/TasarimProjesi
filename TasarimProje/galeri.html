@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <title>Infina Yazılım | Galeri</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src = imgs.src;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="index.html">
+                    <img src="img/infinaLogo.png" />
+                </a>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="index.html" id="anasayfa">Anasayfa</a>
+                    <a href="hakkimizda.html" id="hakkimizda">Hakkımızda</a>
+                    <a href="hizmetlerimiz.html" id="hizmetlerimiz">Hizmetlerimiz</a>
+                    <a href="blog.html" id="blog">Blog</a>
+                    <a href="iletisim.html" id="iletisim">İletişim</a>
+                    <a href="galeri.html" id="galeri">Galeri</a>
+                    <a href="haberler.html" id="haberler">Haberler</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-12  col-sm-12 col-xs-12 col-md-12">
+                <div class="galeri">
+                    <img src="img/galeri/galeri1.png" alt="galeri1" onclick="myFunction(this);" />
+                </div>
+                <div class="galeri">
+                    <img src="img/galeri/galeri2.png" alt="galeri2" onclick="myFunction(this);" />
+                </div>
+                <div class="galeri">
+                    <img src="img/galeri/galeri3.png" alt="galeri3" onclick="myFunction(this);" />
+                </div>
+                <div class="galeri">
+                    <img src="img/galeri/galeri4.png" alt="galeri4" onclick="myFunction(this);" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-lg-12  col-sm-12 col-xs-12 col-md-12">
+                <div class="galeri">
+                    <img src="img/galeri/galeri5.png" alt="galeri5" onclick="myFunction(this);" />
+                </div>
+                <div class="galeri">
+                    <img src="img/galeri/galeri6.png" alt="galeri6" onclick="myFunction(this);" />
+                </div>
+                <div class="galeri">
+                    <img src="img/galeri/galeri7.png" alt="galeri7" onclick="myFunction(this);" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="cerceve col-lg-12  col-sm-12 col-xs-12 col-md-12">
+                <img id="expandedImg">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-sm-4 col-xs-4 col-md-4" style=" background-color:antiquewhite">
+                    <p>
+                        <strong>Adres:</strong>  Kısıklı Mahallesi Alemdağ Caddesi Masaldan İş Merkezi No: 60
+                        G Blok No: 9-10 PK: 34696 ÜSKÜDAR-İSTANBUL
+                    </p>
+                    <p> <strong>Tel:</strong> +90 216 316 53 53 pbx</p>
+                    <p> <strong>Faks:</strong> +90 216 316 00 33</p>
+                    <p> <strong>E-posta:</strong> info@infina.com.tr</p>
+
+                </div>
+
+                <div class="col-lg-8  col-sm-8 col-xs-8 col-md-8">
+                    <a href="https://www.instagram.com/infinadahayat/" target="_blank"><i class="fa fa-instagram" style="font-size:16px">/infinadahayat</i></a>
+                    <a href="https://twitter.com/infinayazilim?lang=tr" target="_blank"><i class="fa fa-twitter" style="font-size:16px">/InfinaYazilim</i></a>
+                    <a href="https://www.facebook.com/InfinaYazilim/" target="_blank"><i class="fa fa-facebook" style="font-size:16px">/InfinaYazilim</i></a>
+                    <a href="https://tr.linkedin.com/company/infina" target="_blank"><i class="fa fa-linkedin" style="font-size:16px">/company/infina</i></a>
+                    <a href="https://www.infina.com.tr/" target="_blank"><i class="fa fa-globe" style="font-size:16px">www.infina.com.tr</i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12  col-sm-12 col-xs-12 col-md-12 text-center">
+                    <p>
+                        &copy;
+                        <script>document.write(new Date().getFullYear());</script>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
